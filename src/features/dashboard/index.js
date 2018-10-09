@@ -30,6 +30,7 @@ class Dashboard extends React.Component {
     const { isModalOpen } = this.state;
     return (
       <div>
+        <Transaction isModalOpen={isModalOpen} closeModal={this.closeModal} />
         <Button
           onClick={this.openModal}
           variant="fab"
@@ -39,7 +40,6 @@ class Dashboard extends React.Component {
         >
           <AddIcon />
         </Button>
-        <Transaction isModalOpen={isModalOpen} closeModal={this.closeModal} />
       </div>
     );
   }
