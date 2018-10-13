@@ -1,0 +1,7 @@
+{
+  "transactions": [
+    { "category": "internet", "id": "01", "price": "80.00", "merchant": "ATT" },
+    { "category": "Dining Out", "id": "02", "price": "15.32", "merchant": "Summer Moon" },
+    { "category": "Television", "id": "03", "price": "40.00", "merchant": "Google Inc" }
+  ]
+}
